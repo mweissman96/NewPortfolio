@@ -1,0 +1,214 @@
+/* MOBILE VERSION (and general) */
+
+@media only screen {
+
+	*, label, form {
+		box-sizing: border-box;
+		color: #f7f7f7ff;
+		font-family: "Lato", sans-serif;
+	}
+
+	body {
+		background: #000000;
+		background-image: url(../images/background.jpg);
+	}
+
+	.grid-container {
+		background-image: url(../images/foreground.jpg);
+		box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 1);
+		padding-top: 1vw;
+		padding-bottom: 3.3vw;
+	}
+
+	h1 {
+		font-family: "Black Ops One", sans-serif;
+		font-weight: normal;
+		color: #f7f7f7ff;
+		text-align: center;
+		font-size: 12.5vw;
+		margin-top: 5vw;
+		margin-bottom: -1vw;
+		text-shadow: 0 0 11vw #f7f7f79c;
+	}
+
+	div .cell p {
+		padding: 3vw;
+		margin-bottom: 1vw;
+		text-align: justify;
+		font-size: 4.5vw;
+		text-shadow: 0 0 2.5vw #f7f7f73f;
+	}
+
+	.cell a {
+		display: block;
+		text-decoration: none;
+	}
+
+	.images, .itsme img {
+		box-shadow: 0.5px 1.5px 9px 0 #0000004f;
+	}
+
+	.divline img {
+		width: 100%;
+		height: 2px;
+	}
+
+	.menu div p {
+		font-size: 5.5vw;
+		text-align: center;
+	}
+
+	.menu .cell {
+		margin-bottom: -2.5vw;
+	}
+
+	.menu div .active
+	{
+		font-style: normal;
+		text-shadow: 0 0 1.5vw #f7f7f7;
+	}
+
+	.shortGrid {
+		height: 100.1vh;
+	}
+
+	label {
+		font-size: 4vw;
+		text-shadow: 0 0 2.5vw #f7f7f73f;
+	}
+
+	form input[type=text] {
+		background-image: url(../images/foreground.jpg);
+		border: 2px solid #f7f7f7ff;
+		border-radius: 3px;
+		color: #f7f7f7ff;
+	}
+
+	form ::placeholder {
+		color: #f7f7f74f;
+	}
+
+	form input[type=text]:focus {
+		border: 2px solid #f7f7f7ff;
+		border-radius: 3px;
+		box-shadow: 0px 0px 10px 0 #f7f7f7ff;
+}
+
+	.contactGrid form {
+		margin-top: 3vw;
+	}
+
+	.divline img {
+		box-shadow: 0px 0px 8px 0 #f7f7f74f;
+	}
+
+	.button {
+		border: 2px solid #f7f7f7ff;
+		border-radius: 3px;
+		/*box-shadow: 0px 0px 10px 0 #f7f7f7ff;*/
+		font-family: "Lato", sans-serif;
+		background: #000000;
+		background-image: url(../images/foreground.jpg);
+		margin-top: 4vw;
+	}
+}
+
+
+@media only screen and (min-width: 40em) {
+	div .cell p {
+		padding: 1vw;
+		margin-bottom: 1.5vw;
+		font-size: 2vw;
+	}
+
+	h1 {
+		font-size: 7vw;
+		margin-top: 2vw;
+		margin-bottom: -1vw;
+		text-shadow: 0 0 11vw #f7f7f7b6;
+	}
+
+	.grid-container {
+		padding-top: 1vw;
+		padding-bottom: 2vw;
+	}
+
+	.aboutme p {
+		margin-right: 2vw;
+	}
+
+	.aboutme img {
+		margin-top: 2vw;
+	}
+
+	.menu div a p {
+		font-size: 3vw;
+	}
+
+	label {
+		font-size: 2vw;
+	}
+
+	.contactGrid form {
+		margin-top: 0.35vw;
+	}
+	.button {
+		margin-top: 2.5vw;
+	}
+}
+
+
+@media only screen and (min-width: 76.05em) {
+	div .cell p {
+		padding: 12.168px;
+		margin-bottom: 18.252px;
+		font-size: 24.336px;
+		text-shadow: 0 0 30.42px #f7f7f73f;
+	}
+
+	h1 {
+		font-size: 85.176px;
+		margin-top: 24.336px;
+		margin-bottom: -12.168px;
+		text-shadow: 0 0 133.848px #f7f7f79c;
+	}
+
+	.grid-container {
+		padding-top: 12.168px;
+		padding-bottom: 24.336px;
+	}
+
+	.aboutme p {
+		margin-right: 24.336px;
+	}
+
+	.aboutme img {
+		margin-top: 24.336px;
+	}
+
+	.menu .cell {
+		margin-bottom: -30.42px;
+	}
+
+	.menu div .active
+	{
+		text-shadow: 0 0 18.252px #f7f7f7;
+	}
+
+	.menu div a p {
+		font-size: 36.504px;
+	}
+
+	label {
+		font-size: 24.336px;
+		text-shadow: 0 0 30.42px #f7f7f73f;
+	}
+
+	.contactGrid form {
+		margin-top: 4.2588px;
+	}
+
+	.button {
+		margin-top: 30.42px;
+	}
+}
